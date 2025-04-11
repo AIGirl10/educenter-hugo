@@ -1,4 +1,4 @@
-
+theme = "educenter-hugo"  # Add this at the very top or just before [params]
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
@@ -138,3 +138,8 @@ link = "#"
 title = "linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
 link = "#"
+
+############################# Hugo Modules ########################
+[module]
+  noProxy = "*"
+  proxy = ""
